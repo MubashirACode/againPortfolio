@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FiCode, FiBriefcase, FiEye, FiDownload } from "react-icons/fi";
 import { PiGraduationCapLight } from "react-icons/pi";
+
 import aboutImage from "../assets/images.jpg";
 
 const GLOW_COLOR = "#22D3EE";
@@ -143,8 +144,8 @@ export const About = () => {
             {/* Resume buttons with traveling light border */}
             <div className="flex flex-wrap gap-4">
               {[
-                { label: "View Resume", icon: <FiEye size={16} />, href: "/resume.pdf", download: false },
-                { label: "Download Resume", icon: <FiDownload size={16} />, href: "/resume.pdf", download: true },
+                { label: "View Resume", icon: <FiEye size={16} />, href:"/mubashir.pdf", download: false },
+                { label: "Download Resume", icon: <FiDownload size={16} />, href: "/mubashir.pdf", download: true },
               ].map((btn) => (
                 <div
                   key={btn.label}

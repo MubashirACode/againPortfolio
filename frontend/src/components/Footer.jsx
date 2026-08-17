@@ -13,10 +13,10 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { icon: <FiGithub size={18} />, href: "https://github.com/", label: "GitHub" },
-  { icon: <FiYoutube size={18} />, href: "https://youtube.com/", label: "YouTube" },
-  { icon: <FiLinkedin size={18} />, href: "https://linkedin.com/", label: "LinkedIn" },
-  { icon: <FiMail size={18} />, href: "mailto:your@email.com", label: "Email" },
+  { icon: <FiGithub size={18} />, href: "https://github.com/MubashirACode", label: "GitHub" },
+  { icon: <FiYoutube size={18} />, href: "www.youtube.com/@C0deWithMubashir", label: "YouTube" },
+
+  { icon: <FiMail size={18} />, href: "mailto:mubashirali200512@email.com", label: "Email" },
 ];
 
 export const Footer = () => {

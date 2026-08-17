@@ -74,7 +74,7 @@ export const portfolioData = [
     title: "Doctor Appointment Booking Website",
     description: "Create Doctor Appointment Booking Website using Mern Stack",
     image: doctor,
-    liveLink: "https://prescripto12.netlify.app/",
+    liveLink: "https://doctor-appointment-qnll.vercel.app",
   },
   {
     id: 10,
